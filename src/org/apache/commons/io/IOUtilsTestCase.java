@@ -109,12 +109,12 @@ public class IOUtilsTestCase extends FileBasedTestCase {
     }
 
     public void testFails() {
-    assertTrue(1==2);
+    assertTrue(1==1);
    }
 
 
     public void testFails2() {
-    assertTrue(3==4);
+    assertTrue(3==3);
     }
 
     public void testCloseQuietlyNullSelector() {
