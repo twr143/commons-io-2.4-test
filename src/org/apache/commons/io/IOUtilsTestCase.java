@@ -112,6 +112,11 @@ public class IOUtilsTestCase extends FileBasedTestCase {
     assertTrue(1==2);
    }
 
+
+    public void testFails2() {
+    assertTrue(3==4);
+    }
+
     public void testCloseQuietlyNullSelector() {
         Selector selector = null;
         IOUtils.closeQuietly(selector);
